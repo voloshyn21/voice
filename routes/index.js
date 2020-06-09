@@ -1,12 +1,10 @@
 const router = require('express').Router();
 
-const {gameController, notFoundController} = require('../controllers');
+const {notFoundController} = require('../controllers');
 const gameRouter = require('./game/game.router');
 
 
 router.use('/game', gameRouter);
-router.get('/games', gameController.getAll);
-
 
 router.use('/', notFoundController);
 

@@ -1,13 +1,13 @@
 /*
   GAME FILTER QUERY BUILDER
 
-  EXAMPLE URL FOR FILTER:
-  http://localhost:3000/games?name=pikachu
-  http://localhost:3000/games?rating=5
-  http://localhost:3000/games?rating=3,4&name=digimon
-  http://localhost:3000/games?rating=3,4,5&name=digimon
-  http://localhost:3000/games?id=10,11&name=pikachu,digimon&rating=4,5
-  http://localhost:3000/games?id=10,11&name=pikachu,digimon&rating=4,5&description=digimon
+  EXAMPLE URL FOR FILTER (METHOD GET):
+  http://localhost:3000/game?name=pikachu
+  http://localhost:3000/game?rating=5
+  http://localhost:3000/game?rating=3,4&name=digimon
+  http://localhost:3000/game?rating=3,4,5&name=digimon
+  http://localhost:3000/game?id=10,11&name=pikachu,digimon&rating=4,5
+  http://localhost:3000/game?id=10,11&name=pikachu,digimon&rating=4,5&description=digimon
 
   IF FILTER IS EMPTY — GET ALL
 */

@@ -4,7 +4,7 @@ const {
 } = require('../../constants');
 const {ErrorHandler} = require('../../errors');
 const {gameService} = require('../../services');
-const {gameHelpers: {gameFilterQueryBuilder}} = require('../../helpers');
+const {gameHelper: {gameFilterQueryBuilder}} = require('../../helpers');
 
 
 module.exports = {
