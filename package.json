@@ -1,0 +1,23 @@
+{
+  "name": "voice",
+  "version": "1.0.0",
+  "description": "voice game project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Voloshyn Ivan",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "joi": "^14.3.1",
+    "mysql2": "^2.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.10",
+    "@types/express": "^4.17.6",
+    "@types/joi": "^14.3.4"
+  }
+}
