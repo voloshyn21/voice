@@ -1,1 +1,1 @@
-module.exports.gameHelpers = require('./game');
+module.exports.gameHelper = require('./game');

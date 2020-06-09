@@ -1,7 +1,7 @@
 const gameRouter = require('express').Router();
 
 const {gameController} = require('../../controllers');
-const {gameMiddlewares: {isGameValid, isGameExist}} = require('../../middlewares');
+const {gameMiddleware: {isGameValid, isGameExist}} = require('../../middlewares');
 
 
 gameRouter.post('/add', isGameValid, gameController.create);

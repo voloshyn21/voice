@@ -1,1 +1,1 @@
-module.exports.gameMiddlewares = require('./game');
+module.exports.gameMiddleware = require('./game');

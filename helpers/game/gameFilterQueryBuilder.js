@@ -1,7 +1,7 @@
 /*
   GAME FILTER QUERY BUILDER
 
-  EXAMPLE URL FOR FILTER:
+  EXAMPLE URL FOR FILTER (METHOD GET):
   http://localhost:3000/games?name=pikachu
   http://localhost:3000/games?rating=5
   http://localhost:3000/games?rating=3,4&name=digimon
